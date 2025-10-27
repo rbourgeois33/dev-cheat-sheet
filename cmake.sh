@@ -1,0 +1,2 @@
+cmake -DCMAKE_CUDA_ARCHITECTURES="70;80;90" .. 
+-DCUDA_FLAGS="-arch=sm_80"
